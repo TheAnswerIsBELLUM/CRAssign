@@ -1,0 +1,23 @@
+### test file for sending requests using REST client extension in vscode (ease of checking)
+### Default Fahrenheit
+GET http://localhost:8080/locations/24060
+
+###
+
+### Celsius
+GET http://localhost:8080/locations/90210?scale=Celsius
+
+###
+
+### Invalid zip
+GET http://localhost:8080/locations/ABCDE
+
+###
+
+### Invalid scale
+GET http://localhost:8080/locations/24060?scale=Kelvin
+
+###
+
+### Zip that doesnt exist
+GET http://localhost:8080/locations/00000
