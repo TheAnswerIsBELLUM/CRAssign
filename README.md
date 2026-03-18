@@ -33,6 +33,7 @@ npm test
 https://open-meteo.com/
 
 ## File Structure
+'''
 src/
 ├── index.js          - Entry point, starts the server on port 8080
 ├── app.js            - Express app setup
@@ -42,6 +43,7 @@ src/
     └── weather.js    - Fetches data from Open-Meteo API
 tests/
 └── locations.test.js - Automated tests
+'''
 
 ## References
 
