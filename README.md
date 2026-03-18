@@ -24,6 +24,7 @@ npm start
 The API will be available at http://localhost:8080
 
 Get requests can be done by appending '/locations/ZIPCode' to url
+
 Append query string for specifiying scale if desired
 
 ## Running Tests
@@ -34,9 +35,13 @@ https://open-meteo.com/
 
 ## File Structure
 index.js - Entry point, starts the server on port 8080
+
 app.js - Express app setup
+
 locations.js - Handles GET /locations/:zipCode
+
 weather.js - Fetches data from Open-Meteo API
+
 locations.test.js - Automated tests
 
 ## References
