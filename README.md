@@ -33,17 +33,11 @@ npm test
 https://open-meteo.com/
 
 ## File Structure
-'''
-src/
-├── index.js          - Entry point, starts the server on port 8080
-├── app.js            - Express app setup
-├── routes/
-│   └── locations.js  - Handles GET /locations/:zipCode
-└── services/
-    └── weather.js    - Fetches data from Open-Meteo API
-tests/
-└── locations.test.js - Automated tests
-'''
+index.js - Entry point, starts the server on port 8080
+app.js - Express app setup
+locations.js - Handles GET /locations/:zipCode
+weather.js - Fetches data from Open-Meteo API
+locations.test.js - Automated tests
 
 ## References
 
